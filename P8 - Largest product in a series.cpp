@@ -29,8 +29,8 @@ int main(void){
                     "05886116467109405077541002256983155200055935729725"
                     "71636269561882670428252483600823257530420752963450";
     while(j <= 987){                                                                    // como a questão pede uma sequência de 13 numeros consecutivos, o primeiro numero dessa sequencia deve ser no máximo o 987º numero 
-        for(int i = 0 + j ; i < 13 + j; i++){
-            aux1 = aux1*(vetor[i] - '0');                                               // esse for faz o produto da sequencia de 13 numeros consecutivos e a salva em aux1
+        for(int i = 0 + j ; i < 13 + j; i++){                                           // esse for faz o produto da sequencia de 13 numeros consecutivos e a salva em aux1
+            aux1 = aux1*(vetor[i] - '0');                                               // transforma o char em tipo int                                             
         }
         if(aux1 > aux2){                                                                // salva o maior dos valor dos produtos em aux2
             aux2 = aux1;
